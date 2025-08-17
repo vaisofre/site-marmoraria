@@ -1,0 +1,226 @@
+/* RESET BÁSICO E ESTILOS GERAIS PARA O CORPO DA PÁGINA */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* ================================== */
+/* ESTILOS PARA O CABEÇALHO (HEADER) */
+/* ================================== */
+header {
+    background-color: #ffffff;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #000000;
+}
+
+/* ================================== */
+/* ESTILOS DA SEÇÃO HERO (DESTAQUE) */
+/* ================================== */
+#hero {
+    height: 70vh;
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+#hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+#hero h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+#hero p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.cta-button {
+    background-color: #cda45e;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #b8914e;
+}
+
+/* ================================== */
+/* SEÇÃO DE MATERIAIS EM DESTAQUE    */
+/* ================================== */
+#featured-materials {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+#featured-materials h3 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #2c3e50;
+}
+
+.materials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.material-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.material-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.material-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.material-card h4 {
+    margin: 0;
+    padding: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* ================================== */
+/* SEÇÃO DE PORTFÓLIO EM DESTAQUE    */
+/* ================================== */
+#featured-portfolio {
+    padding: 60px 30px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#featured-portfolio h3 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #2c3e50;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.portfolio-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.portfolio-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.portfolio-card-content {
+    padding: 20px;
+}
+
+.portfolio-card h4 {
+    margin: 0 0 5px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.portfolio-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+/* ================================== */
+/* ESTILOS DO RODAPÉ (FOOTER)        */
+/* ================================== */
+
+footer {
+    background-color: #2c3e50; /* Um fundo escuro, como o dos títulos */
+    color: #ecf0f1; /* Uma cor de texto clara, quase branca */
+    text-align: center; /* Centraliza todo o texto */
+    padding: 30px; /* Espaçamento interno */
+}
+
+footer p {
+    margin: 5px 0; /* Pequena margem vertical entre as linhas de texto */
+    font-size: 14px;
+}
