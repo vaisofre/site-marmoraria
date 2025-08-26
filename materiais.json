@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "Mármore Carrara",
+    "imagem": "https://placehold.co/300x200/2c3e50/ffffff?text=Marmore+Carrara",
+    "alt": "Foto do Mármore Carrara"
+  },
+  {
+    "nome": "Granito Preto Absoluto",
+    "imagem": "https://placehold.co/300x200/2c3e50/ffffff?text=Granito+Preto",
+    "alt": "Foto do Granito Preto Absoluto"
+  },
+  {
+    "nome": "Quartzito Taj Mahal",
+    "imagem": "https://placehold.co/300x200/2c3e50/ffffff?text=Quartzito",
+    "alt": "Foto do Quartzito Taj Mahal"
+  }
+]

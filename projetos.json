@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Cozinha em Ilha",
+    "descricao": "Mármore Calacatta Gold",
+    "imagem": "https://placehold.co/300x200/cda45e/ffffff?text=Cozinha+Moderna",
+    "alt": "Projeto de Cozinha Moderna"
+  },
+  {
+    "titulo": "Banheiro de Luxo",
+    "descricao": "Granito Preto São Gabriel",
+    "imagem": "https://placehold.co/300x200/cda45e/ffffff?text=Banheiro+de+Luxo",
+    "alt": "Projeto de Banheiro de Luxo"
+  },
+  {
+    "titulo": "Escada Flutuante",
+    "descricao": "Mármore Travertino",
+    "imagem": "https://placehold.co/300x200/cda45e/ffffff?text=Escada+Elegante",
+    "alt": "Projeto de Escada Elegante"
+  }
+]
