@@ -1,19 +1,17 @@
 backend:
   name: git-gateway
-  branch: main # ou master, dependendo do seu repositório
+  branch: main
 
-media_folder: "assets/images" # Pasta onde as imagens serão guardadas
-public_folder: "/assets/images" # Como as imagens serão acedidas no site
+media_folder: "assets/images"
+public_folder: "/assets/images"
 
 collections:
-  - name: "materiais" # Identificador da coleção
-    label: "Materiais" # Nome que aparece no painel
-    folder: "" # Diz ao CMS para editar o ficheiro na raiz
-    create: false # Impede a criação de ficheiros novos
+  - name: "materiais"
+    label: "Materiais"
     files:
       - label: "Lista de Materiais"
         name: "materiais_lista"
-        file: "materiais.json" # O ficheiro que vamos editar
+        file: "materiais.json"
         fields:
           - label: "Lista de Materiais"
             name: "materiais"
@@ -25,8 +23,6 @@ collections:
 
   - name: "projetos"
     label: "Projetos"
-    folder: ""
-    create: false
     files:
       - label: "Lista de Projetos"
         name: "projetos_lista"
